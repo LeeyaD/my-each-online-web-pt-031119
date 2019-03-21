@@ -12,7 +12,7 @@ def my_each(collection)
 end
 
 my_each(["Leeya", "Jason", "Derek"]) do |element|
-  element.reverse
+  "#{element}".reverse
 end
 
 
