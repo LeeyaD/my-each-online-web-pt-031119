@@ -11,6 +11,10 @@ def my_each(collection)
   end
 end
 
+my_each(collection) do |element|
+  element.reverse
+end
+
 
 
 #use 'yield' and 'while' loop to pass each element of collection to a block
