@@ -8,6 +8,7 @@ def my_each(collection)
     end
   else
     "No block given!"
+  end
 end
 
 
