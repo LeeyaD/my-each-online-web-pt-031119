@@ -10,5 +10,7 @@ def my_each(collection)
     "No block given!"
 end
 
+
+
 #use 'yield' and 'while' loop to pass each element of collection to a block
 #
