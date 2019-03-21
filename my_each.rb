@@ -11,7 +11,7 @@ def my_each(collection)
   end
 end
 
-my_each(collection) do |element|
+my_each(["Leeya", "Jason", "Derek"]) do |element|
   element.reverse
 end
 
